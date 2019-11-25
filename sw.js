@@ -5,13 +5,8 @@ const resourcesToPrecache = [
   '/',
   'index.html',
   'style.css',
-  'main.js',
-  'img/face.png',
-  'img/fav.png',
-  'img/insta.png',
-  'img/pay.png',
-  'img/sad.png',
-  'img/success.png'
+  'img/fav-192.png',
+  'img/fav-512.png'
 ];
 
 // 3) PRECACHING RESOURCES
@@ -41,3 +36,4 @@ self.addEventListener('fetch', event => {
     })
   )
 })
+

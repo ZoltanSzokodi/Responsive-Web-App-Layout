@@ -1,16 +1,20 @@
 {
-  "name": "PWA Prototype",
-  "short_name": "Cool PWA",
+  "short_name": "librify app",
+  "name": "Cool online books",
   "icons": [
     {
-      "src": "/img/fav.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "/img/fav-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/fav-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
-  "start-url": "/index.html",
+  "start_url": "./index.html?from=homescreen",
   "display": "standalone",
-  "orientation": "portrait",
-  "background-color": "#dadae3",
-  "theme_color": "#648ca6"
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }
