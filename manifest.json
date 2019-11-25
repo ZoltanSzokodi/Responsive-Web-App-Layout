@@ -1,0 +1,16 @@
+{
+  "name": "PWA Prototype",
+  "short_name": "Cool PWA",
+  "icons": [
+    {
+      "src": "/img/fav.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start-url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background-color": "#dadae3",
+  "theme_color": "#648ca6"
+}
